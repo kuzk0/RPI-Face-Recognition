@@ -1,0 +1,60 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+/.conda/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large binary files (models, images, datasets)
+models/
+Dataset/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.webp
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+*.tmp
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables (sensitive data)
+.env
+.env.local
+
+# System-specific files for Raspberry Pi
+*.h5
+*.onnx
+
+# Screenshot and documentation images that shouldn't be committed
+* screenshot*
+*Screenshot*
