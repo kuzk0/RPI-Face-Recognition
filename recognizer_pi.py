@@ -134,6 +134,7 @@ def recognize_face_in_frame(face_image, known_faces_dict):
     return best_match, best_confidence
 
 def main():
+    face_cache = {}
     # Load known faces first
     known_faces = load_known_faces()
     if not known_faces:

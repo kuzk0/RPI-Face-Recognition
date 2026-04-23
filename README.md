@@ -30,14 +30,7 @@
    pip3 install -r requirements_rpi.txt
    ```
 
-3. **Активируйте камеру**
-   ```bash
-   sudo raspi-config
-   # Interface Options → Camera → Enable
-   # reboot
-   ```
-
-4. **Загрузите ONNX-модель**
+3. **Загрузите ONNX-модель**
    Скачайте одну из рекомендуемых моделей InsightFace (например, `buffalo_m/w600k_r50.onnx`) по [ссылке](https://github.com/deepinsight/insightface/releases/tag/v0.7). Поместите в папку `./models/buffalo_m/`.
 
    Рекомендуемые модели:
@@ -45,10 +38,10 @@
    - ⚠️ `w600k_mbf.onnx` (buffalo_s или buffalo_sc) — чуть быстрее, но менее точно.
    - ❌ `glintr100.onnx`, `buffalo_l` — слишком тяжёлые для Raspberry Pi.
 
-5. **Подготовьте датасет**
+4. **Подготовьте датасет**
    См. раздел **"Особенности работы с датасетом"** ниже.
 
-6. **Запуск**
+5. **Запуск**
    ```bash
    python3 recognizer_pi.py
    ```
