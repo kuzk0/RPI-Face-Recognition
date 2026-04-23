@@ -1,5 +1,5 @@
-opencv-python-headless>=4.8.0
-numpy>=1.23.0
-onnxruntime-rpi4>=1.16.0  # for ARM
-picamera2>=0.3.0
-Pillow>=9.0.0
+opencv-python-headless
+numpy
+onnxruntime
+picamera2
+Pillow
